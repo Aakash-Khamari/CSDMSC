@@ -1,5 +1,5 @@
 /**
- * CSDMSC 2026 - Main Logic
+ * CDSMSC 2026 - Main Logic
  * Handles global components (Navbar/Footer), Mobile Menu, and Active States.
  * STRICTLY FOLLOWS THEME-CONFIG COLORS.
  */
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const App = {
     // Configuration for the Event
     config: {
-        eventName: "CSDMSC 2026",
+        eventName: "CDSMSC 2026",
         dates: "Feb 20-21, 2026",
         venue: "Rajendra University",
         convenerEmail: "ddansana@rajendrauniversity.ac.in",
@@ -44,7 +44,7 @@ const App = {
                             </div>
                             <div>
                                 <h1 class="text-xl font-bold text-brand-900 tracking-tight leading-none group-hover:text-brand-600 transition">
-                                    CSDMSC<span class="text-brand-500"> 2026</span>
+                                    CDSMSC<span class="text-brand-500"> 2026</span>
                                 </h1>
                                 <p class="text-[10px] text-gray-500 font-medium tracking-wider uppercase mt-0.5">Rajendra University</p>
                             </div>
@@ -103,7 +103,7 @@ const App = {
                     <div class="space-y-4">
                         <div class="flex items-center gap-2">
                             <div class="w-8 h-8 bg-brand-600 rounded flex items-center justify-center text-white font-bold shadow-lg">C</div>
-                            <h3 class="text-2xl font-bold text-white tracking-tight">CSDMSC 2026</h3>
+                            <h3 class="text-2xl font-bold text-white tracking-tight">CDSMSC 2026</h3>
                         </div>
                         <p class="text-brand-200 text-sm leading-relaxed max-w-sm">
                             National Conference on Computational and Data Sciences in Mathematics, Statistics and Computer Science.
@@ -157,7 +157,7 @@ const App = {
                 <div class="border-t border-brand-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-brand-300">
                     <p>&copy; 2026 Rajendra University. All rights reserved.</p>
                     <p class="mt-2 md:mt-0 flex items-center gap-1">
-                        Designed for <span class="font-semibold text-white">CSDMSC 2026</span>
+                        Designed for <span class="font-semibold text-white">CDSMSC 2026</span>
                     </p>
                 </div>
             </div>
